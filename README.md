@@ -1,8 +1,6 @@
 # Progress 8 Data Across England
 This Tableau dashboard is a visualisation of national trends in provisional Progress 8 data from mainstream schools across England.
-
-## Link to Dashboard on Tableau Public
-https://public.tableau.com/views/progress_8/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Link to Dashboard on Tableau Public: https://public.tableau.com/views/progress_8/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Files in external repos
 I have not included these files as they are from external sites. They can be found at the following links:
