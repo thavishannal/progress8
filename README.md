@@ -24,9 +24,9 @@ I have not included these files as they are from external sites. They can be fou
 You can:
 - Hover over points or bars to bring up more information.
 - Click on the names of regions in the bar chart to filter data.
-- Explore tha map to look at local authorities.
+- Explore the map to look at local authorities.
 - Highlight individual schools using the searchbox.
 
 Progress 8 does not account for socioeconomic factors, and individual scores are based on small and highly variable  sample sizes. P8 is useful when looking at trends, but should not be treated as a ranking tool or an absolute measure of school effectiveness.
 
-The graphs in this visualisation were inspired by the work at FFT Education Datalab. They have written more about the limits of P8 here: https://ffteducationdatalab.org.uk/2024/05/contextualising-progress-8/
+The graphs in this visualisation were inspired by the work at FFT Education Datalab. They have written more about the limits of P8 here: https://ffteducationdatalab.org.uk/2024/05/contextualising-progress-8/ Please check out their work!
