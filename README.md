@@ -10,7 +10,7 @@ I have not included these files as they are from external sites. They can be fou
 - `CTYUA_DEC_2024_UK_BFC.shp` - Shapefiles for LAs in England, avaliable from the ONS at https://geoportal.statistics.gov.uk/datasets/e0e00383f27d4437ae87d26e673c2d54_0/explore. Tableau needs this for geocoding LAs.
 
 ## Files in this repo
-- `pcodes.sql` - Prepares latitude and longitude data for school postcodes. Tableau needs this for plotting its UK postcode geographic role only stores outcode data.
+- `pcodes.sql` - Prepares latitude and longitude data for school postcodes. Tableau needs this for plotting as its UK postcode geographic role only stores outcode data.
 - `la_data_extract.sql` - Extracts progress data for local authorities from `england_ks4_provisional.csv`
 - `pcodes_fixed.csv` - A list of postcodes that I had to manually fix because the dataset was using outdated postcodes. _Remember to send to DfE._
 - `dfe_pcode_coords.csv` - Coordinates of school postcodes.
