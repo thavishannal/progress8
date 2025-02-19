@@ -29,4 +29,5 @@ You can:
 
 Progress 8 does not account for socioeconomic factors, and individual scores are based on small and highly variable  sample sizes. P8 is useful when looking at trends, but should not be treated as a ranking tool or an absolute measure of school effectiveness.
 
-The graphs in this visualisation were inspired by the work at FFT Education Datalab. They have written more about the limits of P8 here: https://ffteducationdatalab.org.uk/2024/05/contextualising-progress-8/ Please check out their work!
+The graphs in this visualisation were inspired by the work at FFT Education Datalab. They have written more about the limits of P8 here: https://ffteducationdatalab.org.uk/2024/05/contextualising-progress-8/ 
+Please check out their research!
