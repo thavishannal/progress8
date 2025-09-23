@@ -3,20 +3,6 @@ This Tableau dashboard is a visualisation of national trends in provisional Prog
 
 Link to dashboard on Tableau Public: https://public.tableau.com/views/progress_8/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-## Files in external repos
-I have not included these files as they are from external sites. They can be found at the following links:
-- `england_ks4_provisional` - Provisional progress data from the DfE, available at https://www.compare-school-performance.service.gov.uk/download-data
-- `la_and_region_codes_meta` - A list of local authority names, available from the DfE at https://www.compare-school-performance.service.gov.uk/download-data
-- `CTYUA_DEC_2024_UK_BFC.shp` - Shapefiles for LAs in England, avaliable from the ONS at https://geoportal.statistics.gov.uk/datasets/e0e00383f27d4437ae87d26e673c2d54_0/explore. Tableau needs this for geocoding LAs.
-
-## Files in this repo
-- `pcodes.sql` - Prepares latitude and longitude data for school postcodes. Tableau needs this for plotting as its UK postcode geographic role only stores outcode data.
-- `la_data_extract.sql` - Extracts progress data for local authorities from `england_ks4_provisional.csv`
-- `pcodes_fixed.csv` - A list of postcodes that I had to manually fix because the dataset was using outdated postcodes.
-- `dfe_pcode_coords.csv` - Coordinates of school postcodes.
-- `LEA_P8_data.csv` - Extracted LA P8 data.
-
-
 ## Demo
 
 ![demo](demo.gif)
@@ -31,3 +17,19 @@ Progress 8 does not account for socioeconomic factors, and individual scores are
 
 The graphs in this visualisation were inspired by the work at FFT Education Datalab. They have written more about the limits of P8 here: https://ffteducationdatalab.org.uk/2024/05/contextualising-progress-8/ 
 Please check out their research!
+
+
+## Files in external repos
+I have not included these files as they are from external sites. They can be found at the following links:
+- `england_ks4_provisional` - Provisional progress data from the DfE, available at https://www.compare-school-performance.service.gov.uk/download-data
+- `la_and_region_codes_meta` - A list of local authority names, available from the DfE at https://www.compare-school-performance.service.gov.uk/download-data
+- `CTYUA_DEC_2024_UK_BFC.shp` - Shapefiles for LAs in England, avaliable from the ONS at https://geoportal.statistics.gov.uk/datasets/e0e00383f27d4437ae87d26e673c2d54_0/explore. Tableau needs this for geocoding LAs.
+
+## Files in this repo
+- `pcodes.sql` - Prepares latitude and longitude data for school postcodes. Tableau needs this for plotting as its UK postcode geographic role only stores outcode data.
+- `la_data_extract.sql` - Prepares local authority progress data from `england_ks4_provisional.csv`
+- `pcodes_fixed.csv` - A list of postcodes that I had to manually fix because the dataset was using outdated postcodes.
+- `dfe_pcode_coords.csv` - Coordinates of school postcodes.
+- `LEA_P8_data.csv` - Extracted LA P8 data.
+
+
