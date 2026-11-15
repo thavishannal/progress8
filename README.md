@@ -1,5 +1,5 @@
 # Progress 8 Data Across England
-This Tableau dashboard is a visualisation of national trends in provisional Progress 8 data from mainstream schools across England.
+This Tableau dashboard is a visualisation of national trends in provisional Progress 8 data from mainstream schools across England. I have also uploaded a copy of my PGCE essay on how systems of assessment (like Progress 8) affect social mobility.
 
 Link to dashboard on Tableau Public: https://public.tableau.com/views/progress_8/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
@@ -26,10 +26,11 @@ I have not included these files as they are from external sites. They can be fou
 - `CTYUA_DEC_2024_UK_BFC.shp` - Shapefiles for LAs in England, avaliable from the ONS at https://geoportal.statistics.gov.uk/datasets/e0e00383f27d4437ae87d26e673c2d54_0/explore. Tableau needs this for geocoding LAs.
 
 ## Files in this repo
+- `assessment.pdf` - A copy of my PGCE essay  titled _A Critical Review of How Systems of Assessment Affect Social Mobility_.
 - `pcodes.sql` - Prepares latitude and longitude data for school postcodes. Tableau needs this for plotting as its UK postcode geographic role only stores outcode data.
 - `la_data_extract.sql` - Prepares local authority progress data from `england_ks4_provisional.csv`
 - `pcodes_fixed.csv` - A list of postcodes that I had to manually fix because the dataset was using outdated postcodes.
 - `dfe_pcode_coords.csv` - Coordinates of school postcodes.
 - `LEA_P8_data.csv` - Extracted LA P8 data.
 
-
+Note that I could not upload the Tableau `.twbx` file as it is greater than 25 MB. It can be downloaded from this [public link](https://public.tableau.com/views/progress_8/Dashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
